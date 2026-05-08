@@ -23,7 +23,7 @@ API_URL          = os.getenv("https://dashboard.clerk.com/apps/app_3DPDlwFq3wQH2
 API_KEY          = os.getenv("sk_test_3TG1csz5L8OcWPdHqKtpnPCncgR9ze3CSaAT7jrTPr")
 ADMIN_IDS        = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
 CHANNEL_ID       = "", ""
-CHANNEL_USERNAME = "bgmiserverfrzee"
+CHANNEL_USERNAME = "AyanIsLive8"
 CHANNEL_INVITE   = "https://t.me/bgmiserverfrzee"
 
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
