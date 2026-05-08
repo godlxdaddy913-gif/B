@@ -63,7 +63,7 @@ def join_url():
     
     return ""
 
-def get_support_keyboard():
+
     
     
     
