@@ -66,7 +66,7 @@ def join_url():
 def get_support_keyboard():
     
     
-    return InlineKeyboardMarkup(keyboard)
+    
 
 def main_menu_keyboard():
     keyboard = [
