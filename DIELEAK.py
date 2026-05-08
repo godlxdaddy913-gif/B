@@ -64,11 +64,8 @@ def join_url():
     return ""
 
 def get_support_keyboard():
-    keyboard = [
-        [InlineKeyboardButton("👑 𝗢𝗪𝗡𝗘𝗥 👑", url="CHANNEL_LINK")],
-        [InlineKeyboardButton("📢 𝗙𝗘𝗘𝗗𝗕𝗔𝗖𝗞 📢", url="CHANNEL_LINK")],
-        [InlineKeyboardButton("💰 𝗣𝗥𝗢𝗢𝗙 💰", url="CHANNEL_LINK")],
-    ]
+    
+    
     return InlineKeyboardMarkup(keyboard)
 
 def main_menu_keyboard():
