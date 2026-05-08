@@ -59,7 +59,8 @@ def gen_key(hours, uses):
 
 def join_url():
     if CHANNEL_INVITE: return CHANNEL_INVITE
-    if CHANNEL_USERNAME: return f"https://t.me/{CHANNEL_USERNAME.lstrip('@')}"
+    if CHANNEL_USERNAME: return "https://t.me/bgmiserverfrzee"
+    
     return ""
 
 def get_support_keyboard():
