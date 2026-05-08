@@ -22,7 +22,7 @@ DATABASE_NAME    = os.getenv("Bgmihddos_bot", "attack_bot")
 API_URL          = os.getenv("https://dashboard.clerk.com/apps/app_3DPDlwFq3wQH2ZjcVzsIdCDnIOp/instances/ins_3DPDlxzj4JEKkoZr9xoaHzLJazf/api-keys")
 API_KEY          = os.getenv("sk_test_3TG1csz5L8OcWPdHqKtpnPCncgR9ze3CSaAT7jrTPr")
 ADMIN_IDS        = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
-CHANNEL_ID       = Nono
+CHANNEL_ID       = None
 CHANNEL_USERNAME = ""
 CHANNEL_INVITE   = ""
 
