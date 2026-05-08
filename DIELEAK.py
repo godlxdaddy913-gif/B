@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 BOT_TOKEN        = os.getenv("8698433516:AAF-jMth0PpNNa8hVlDL-JPdKG5Aa7qZWDQ")
-MONGODB_URI      = os.getenv("mongodb+srv://ak90441100_db_user:SoEGOOuCxaoUncDO@cluster0.8pjh6u8.mongodb.net/?appName=Cluster0")
+MONGODB_URI      = os.getenv("mongodb+srv://bgmbdh2_db_user:pnsU8jWFspT1rhds@cluster0.u8imypk.mongodb.net/?appName=Cluster0")
 DATABASE_NAME    = os.getenv("Bgmihddos_bot", "attack_bot")
 API_URL          = os.getenv("https://dashboard.clerk.com/apps/app_3DPDlwFq3wQH2ZjcVzsIdCDnIOp/instances/ins_3DPDlxzj4JEKkoZr9xoaHzLJazf/api-keys")
 API_KEY          = os.getenv("sk_test_3TG1csz5L8OcWPdHqKtpnPCncgR9ze3CSaAT7jrTPr")
